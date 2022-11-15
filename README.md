@@ -148,3 +148,8 @@ To create the forecast, complete the following steps:
 * Submit the link to your GitHub project to Bootcamp Spot.
 
 ##  Personal Thoughts From this moduel 
+I really enjoyed this Mod. It challenged me in ways that preivous mod's haven't and allowed me to ensure that I was keeping track of multiple dataframes at once. 
+I ran into a few issues that I will need more focus on in the future:
+1- I was unable to calcualte Stock Volatility for mercado_stock_trends_df using the close price. In the displayed dataframe a message appeared under the Stock Volatility column in which I was unsure of how to fix
+2 -  when I try to use the reset_index() - Lagged Search Trend, Hourly Stock Return and Stock Volatility still appear. Due to this I will drop those three column to then just have close and search trends then reset the column names for ds and y. Moving forward I am interested in knowing why #prophet_df = mercado_stock_trends_df.reset_index() did not produce what I was looking for 
+3- when trying to display 'yhat', 'yhat_lower', 'yhat_upper', it was outlined that these columns were not in the df although above it was. 
